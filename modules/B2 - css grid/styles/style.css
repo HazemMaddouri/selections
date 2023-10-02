@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+.parent {
+  display: grid;
+  padding: 3px;
+  overflow: scroll;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-gap: 3px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.div1 {
+  grid-column: 1 / 7;
+  background-color: #fed531;
+}
+.div2 {
+  grid-column: span 2;
+  background-color: #fdc1cb;
+}
+.div3 {
+  grid-column: span 2;
+  background-color: #fdc1cb;
+}
+.div4 {
+  grid-column: span 2;
+  background-color: #fdc1cb;
+}
+.div5 {
+  grid-column: span 12;
+  grid-row: 8;
+  background-color: #a08880;
+}
+.div6 {
+  grid-column: 1 / 10;
+  background-color: #afd8e5;
+}
+.div7 {
+  grid-column: span 3;
+  grid-row: span 2;
+  background-color: #fcaa4c;
+}
+.div8 {
+  grid-column: 10 / span 3;
+  grid-row: span 2;
+  background-color: #1c7e12;
+}
+.div9 {
+  grid-column: 10 / span 3;
+  grid-row: 6 / span 2;
+  background-color: #db50f8;
+}
+.div10 {
+  grid-column: 3 / 10;
+  grid-row: 3 / span 2;
+  background-color: #d3d3d3;
+}
+.div11 {
+  grid-column: 3 / 10;
+  grid-row: span 3;
+  background-color: #fffc38;
+}
+.div12 {
+  grid-column: 1 / 3;
+  grid-row: 3 / span 5;
+  background-color: #97ec94;
+}
