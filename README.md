@@ -1,1 +1,1 @@
-[#Selections](https://hazemmaddouri.github.io/selections/)
+[Selections](https://hazemmaddouri.github.io/selections/)
